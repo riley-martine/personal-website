@@ -1,0 +1,86 @@
+---
+title: Links
+has: code
+---
+  <p>To reduce signal-to-noise ratio, I am not listing everything I want to reccomend here.</p>
+  <h3>Small, Easy Improvements</h3>
+  <p>Here are some things which mostly take less than 5 minutes to set up and have a decent impact. I am not affiliated with any of them.</p>
+  <h4>Browser Extensions</h4>
+  <ul>
+    <li><a href="https://github.com/gorhill/uBlock#ublock-origin">uBlock Origin</a>: a general-purpose blocker that functions as an ad blocker. More efficient than other ad blockers.</li>
+    <li><a href="https://www.proginosko.com/leechblock/">LeechBlock</a>: a highly customizable browser extension to block time-wasting sites.</li>
+    <li><a href="http://www.wikiwand.com/">Wikiwand</a>: a browser extension to make Wikipedia prettier.</li>
+    <li><a href="https://www.one-tab.com/">OneTab</a>: convert open tabs into list entries. Easy way to say "I'll read this later" and prevent FOMO.</li>
+    <li><a href="https://oxal.org/projects/sakura/bookmark">Sakura bookmarklet</a>: not an extension. Make unformatted sites look kinda pretty. <br>
+      <a class="button" href="javascript:(function()%7B(function()%7B%22use%20strict%22%3Bfunction%20e(e)%7Breturn%20Array.prototype.slice.call(window.document.querySelectorAll(e))%7Dfunction%20t()%7Balert(%22Sorry%2C%20sakura%20styles%20could%20not%20be%20applied%20to%20this%20page.%22)%7Dfunction%20r()%7Bvar%20t%3De(%22link%22).filter(function(e)%7Breturn%22stylesheet%22%3D%3D%3De.getAttribute(%22rel%22)%26%26e!%3D%3Dn%7D)%2Cr%3De(%22style%22)%2Co%3Dt.concat(r)%3Bo.forEach(function(e)%7Be.parentElement.removeChild(e)%7D)%7Dvar%20n%3Dwindow.document.createElement(%22link%22)%3Bn.addEventListener(%22error%22%2Ct)%2Cn.addEventListener(%22load%22%2Cr)%2Cn.setAttribute(%22rel%22%2C%22stylesheet%22)%2Cn.setAttribute(%22href%22%2C%22https%3A%2F%2Funpkg.com%2Fsakura.css%2Fcss%2Fsakura-dark.css%22)%2Cwindow.document.head.appendChild(n)%7D)()%3B%7D)()">Dark version </a>
+      <a class="button" href="javascript:(function()%7B(function()%7B%22use%20strict%22%3Bfunction%20e(e)%7Breturn%20Array.prototype.slice.call(window.document.querySelectorAll(e))%7Dfunction%20t()%7Balert(%22Sorry%2C%20sakura%20styles%20could%20not%20be%20applied%20to%20this%20page.%22)%7Dfunction%20r()%7Bvar%20t%3De(%22link%22).filter(function(e)%7Breturn%22stylesheet%22%3D%3D%3De.getAttribute(%22rel%22)%26%26e!%3D%3Dn%7D)%2Cr%3De(%22style%22)%2Co%3Dt.concat(r)%3Bo.forEach(function(e)%7Be.parentElement.removeChild(e)%7D)%7Dvar%20n%3Dwindow.document.createElement(%22link%22)%3Bn.addEventListener(%22error%22%2Ct)%2Cn.addEventListener(%22load%22%2Cr)%2Cn.setAttribute(%22rel%22%2C%22stylesheet%22)%2Cn.setAttribute(%22href%22%2C%22https%3A%2F%2Funpkg.com%2Fsakura.css%2Fcss%2Fsakura.css%22)%2Cwindow.document.head.appendChild(n)%7D)()%3B%7D)()">Light version </a>
+    </li>
+  </ul>
+  <h4>Command Line</h4>
+  <ul>
+    <li><a href="http://zsh.sourceforge.net/FAQ/zshfaq01.html#l4">zsh</a> with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>.</li>
+    <li><a href="https://github.com/sharkdp/bat">bat</a>: a drop-in replacement for cat with syntax highlighting (when not piped) and git integration. Alias with <pre class="inlinecode"><code class="zsh">alias cat='bat'</code></pre></li>
+    <li><a href="https://github.com/ambv/black">black</a>: automatic code formatter for Python.</li>
+    <li><a href="https://github.com/w0rp/ale">ALE</a>: async lint engine for Vim.</li>
+  </ul>
+
+  <h2>More Time Investment</h2>
+  These aren't necessarily for everyone, but I think they're worth the time. Maybe you will too!
+  <ul>
+    <li><a href="https://ncase.me/remember/">Spaced repetition</a>: memory is a choice now. I use it (through <a href="https://apps.ankiweb.net/">Anki</a>) for language learning.</li>
+    <li><a href="http://tokipona.net/tp/Tour001Why.aspx">Toki Pona</a>: a tiny conlang with about 120 words. Takes about 30 hours to be able to read and write texts. Sad you never really finished French in high school? Now you can be bilingual in a week. ona li pona mute, anu seme?</li>
+    <li><a href="https://www.zotero.org/">Zotero</a>: FOSS software to organize and cite research.</li>
+    <li>A password manager: if you don't have one, you probably should. I use <a href="https://www.passwordstore.org/">pass</a>.</li>
+  </ul>
+
+  <h3>Useful Websites</h3>
+  <ul>
+    <li><a href="http://swisscolors.net/">Swiss style color picker</a>: I'm red-green colorblind, and have no idea what colors are supposed to go together. I use this website for premade groups of colors.</li>
+    <!-- <li><a href="https://www.bingeclock.com/index">Bingeclock</a>: find out how many hours a TV show is if you were to watch the whole thing at once.</li> -->
+    <li><a href="https://learnxinyminutes.com/">learnxinyminutes</a>: full syntax reference, as running code, for any language you'd care to use. Very useful when you forget the power operator, or need to re-ingest a language you haven't used for a while.</li>
+    <li><a href="https://github.com/minimaxir/big-list-of-naughty-strings">Big List of Naughty Strings</a>: test list of strings that have the capacity to foul up your program.</li>
+  </ul>
+
+  <h3>Things to Read on the Internet Because They Make You Think</h3>
+  <ul>
+  <li><a href="http://www.cs.virginia.edu/~evans/cs655/readings/purity.html">A Person Paper on Purity in Language</a>: a fantastic piece of satire by Douglas Hofstadter on language and what it means.</li>
+  <li><a href="files/emotional_labor__the_metafilter_thread_condensed.pdf">Emotional Labor</a>: if you've never heard the term "emotional labor", if you were assigned male at birth and socialized male, or if you want to read a poignant explanation of how the emotional division of labor is the unfair burden of women, <strong>read this</strong>. Every now and then I read something and have the feeling it is crucially important and will change the way I look at the world. This is one of those things. (If link is broken, try <a href="https://drive.google.com/file/d/0B0UUYL6kaNeBTDBRbkJkeUtabEk/view?pref=2&pli=1">here</a>.)</li>
+  </ul>
+
+  <h3>Things to Read on the Internet Because They're Fun</h3>
+  <ul>
+    <li><a href="http://www.scp-wiki.net/about-the-scp-foundation">SCP wiki</a>: a fictional organization tasked with three goals: Secure, Contain, Protect. Here's one of my favorites: <a href="http://www.scp-wiki.net/scp-2317">SCP-2317</a>.</li>
+    <li><a href="http://www.galactanet.com/oneoff/theegg_mod.html">The Egg</a>: one of those stories that sticks with you for a long time.</li>
+    <li><a href="http://www.catb.org/jargon/html/index.html">The Jargon File</a>: "a comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor." Read the introductions and appendices.</li>
+    <li><a href="http://www.textfiles.com/">Textfiles.com</a>: a snapshot of the internet as it was in the 80s. Read the <a href="http://www.textfiles.com/statement.html">statement</a>.</li>
+    <li><a href="https://aphyr.com/posts/340-reversing-the-technical-interview">Reversing The Technical Interview</a> (and its two follow-ups): a crystaline tale of linked lists, types, and magic.</li>
+    <li><a href="https://github.com/Droogans/unmaintainable-code">Unmaintainable Code</a>: a very funny piece on how to ensure a job for life.</li>
+    <li><a href="http://www.multivax.com/last_question.html">The Last Question</a>: INSUFFICIENT DATA FOR MEANINGFUL DESCRIPTION.</li>
+  </ul>
+
+  <h3>Music</h3>
+  Here's some artists I like enough to put on a website.
+  <ul>
+    <li><a href="https://city-girl.bandcamp.com/">City Girl</a>: beautiful, relaxing music. Put <a href="https://www.youtube.com/watch?v=axkOqrLtDXo">neon impasse</a> (youtube link) on while you're doing something else and see if it's your style.</li>
+    <li><a href="https://blankbanshee.bandcamp.com/">Blank Banshee</a>: some of my favorite vaporwave music. Listen to the album <a href="https://blankbanshee.bandcamp.com/album/blank-banshee-0">Blank Banshee 0</a> if you have time. If not, listen to the track <a href="https://blankbanshee.bandcamp.com/track/wavestep">wavestep</a>.</li>
+    <li><a href="https://yungbaebae.bandcamp.com/album/bae">Yung Bae, specifically the album "Bae."</a> Listen to <a href="https://yungbaebae.bandcamp.com/track/bae-city-rollaz-w-v">Bae City Rollaz (w/ИΔΤVИ)</a> to see if it's your thing.</li>
+  </ul>
+
+    <h3>RSS Feeds</h3>
+    It turns out most things I care about have RSS feeds, even in 2019. If they're not linked on a site, you can often append <pre class="inlinecode"><code>/feed</code></pre> or <pre class="inlinecode"><code>/rss</code></pre> to a website's base URL to get one.
+    Here are the feeds I think are most worth telling people about.
+    <ul>
+      <li><a href="https://edavis.github.io/hnrss/">Hacker News RSS</a>: I use a URL for every post that reaches over 500 points <a href="https://hnrss.org/newest?points=500">here</a>.</li>
+      <li><a href="https://krebsonsecurity.com/feed/">Krebs On Security</a>: "In-depth security news and investigation."</li>
+      <li><a href="http://existentialcomics.com/rss.xml">Existential Comics</a>: funny philosophy comics.</li>
+    </ul>
+
+    <h3>Things That Cost Money</h3>
+    I am not affiliated with any of these, I was not paid money to put them on here and am not paid when you click on them or buy them, etc.
+    <ul>
+    <li><a href="https://nextcloud.com/athome/">Nextcloud</a>: host your own files, calendar, contacts, notes, etc. Costs money to run a server, unless you already have your own.</li>
+    <li><a href="http://www.thelazygeniuscollective.com/blog/how-to-bullet-journal">Bullet Journaling</a>: a hackable framework for a paper planner. I keep things to do in mine, but also lists of books to read, projects I'm working on, etc. Mine isn't pretty and isn't supposed to be, so don't feel like you have to be all artsy like the ones you see online.</li>
+    <li>A fountain pen: not hard to use, feels much better to write with than ballpoint, makes you look fancy with minimal effort. I have a <a href="https://www.twsbi.com/collections/fountain-pens/products/twsbi-eco-clear-fountain-pen">TWSBI ECO</a> extra fine (<a href="https://nibsmith.com/2015/07/31/twsbi-eco-review/">review</a>) and <a href="https://www.gouletpens.com/products/noodlers-heart-darkness-4-5oz-bottled-ink">Noodler's Heart of Darkness ink</a> (<a href="https://www.penaddict.com/blog/2013/12/20/noodlers-heart-of-darkness-review">review</a>). Together, they cost about $50 (USD). If you write things daily, it makes sense, IMO, to invest in your tools if you can.</li>
+    <li><a href="https://www.rotring.com/us/mechanical-pencils/290-rotring-600-mechanical-pencil-3501178523096.html#/color-black/nib_size-0_5_mm">Fancy mechanical pencil (Rotring 600)</a>: if pens aren't your style, check out this or similar pencils. Costs about $30 (USD). I use this and my fountain pen pretty much exclusively. Very solid, expect it to last many years to come.</li>
+    <li>Some good socks: my favorites are <a href="https://darntough.com/">Darn Tough</a> socks, with <a href="https://www.sockdreams.com/">sockdreams</a> coming in second. Pricier than normal socks, but they'll last longer, look better, and not be uncomfortable to wear.</li>
+  </ul>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  {% seo %}
+  {% feed_meta %}
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="theme-color" content="#2c8898">
+
+  <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/main-print.css" type="text/css" media="print">
+</head>
+<body>
+  <div id="skip">
+    <a href="#main">Skip to Main Content</a>
+  </div>
+  {% include navigation.html %}
+  <header class="site-header">
+    <h1 class="site-title">Reify Resonance</h1>
+    <p class="site-subtitle">What are the words you don't have yet?</p>
+  </header>
+
+  <main id="main" role="main">
+    <header>
+      <h2>{{ page.title }}</h2>
+    </header>
+    {{ content }}
+  </main>
+
+  {% if page.has contains 'code' %}
+    <link rel="stylesheet" href="/assets/css/vendor/highlight/default.css">
+    <script src="/assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/vendor/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  {% endif %}
+</body>
+</html>
