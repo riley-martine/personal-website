@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/riley_martine
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://reifyresonance.xyz
+  * I am riley_martine (https://keybase.io/riley_martine) on keybase.
+  * I have a public key ASBiGt9SwlKud5pftXmF_w2Z63q4adRJEhYX0PeOZroRlQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c4cdfef6fe20441ba0404e51cec55dc5293612f1172726c5b012fb5625a70c8a0a",
+      "host": "keybase.io",
+      "kid": "0120621adf52c252ae779a5fb57985ff0d99eb7ab869d449121617d0f78e66ba11950a",
+      "uid": "78af92f7fc6b8e98f926600ab6afcb19",
+      "username": "riley_martine"
+    },
+    "merkle_root": {
+      "ctime": 1555173407,
+      "hash": "84655078e32d113f391350b87543288068efbe0025702b47c9fd145463361d87dc0293f4ebb55fe4a2b759d0a2dfd085169d0ed084c77d68b3a4399326cde8f6",
+      "hash_meta": "9c6c1586381293fd8f698470eb16e4f0fa7ed3ba2b3218b46bc591340d9a81d5",
+      "seqno": 5161031
+    },
+    "service": {
+      "entropy": "KlXdHiKeZVZzAKYB3Nun1Z1S",
+      "hostname": "reifyresonance.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555173440,
+  "expire_in": 504576000,
+  "prev": "8f8d28b836334b4e7c72f16823fc31e750bed7f876063f7c6db28ae8df593dac",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYhrfUsJSrneaX7V5hf8Nmet6uGnUSRIWF9D3jma6EZUKp3BheWxvYWTESpcCKsQgj40ouDYzS058cvFoI/wx51C+1/h2Bj98bbKK6N9ZPazEILhmQmttNg+nCsLiTybqKuE3+gb5JWsukA9Rk9y5NgaTAgHCo3NpZ8RA689I1Uepy07k327gGpIR92Bg7u4md8bvo4au7WZQV16cz2vrxF4bC5CNPG6ZAcQK1BtjweHSuWT5WcvPb4A1DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICLG3o9fZYHIM6i4EzNU/EQQnXCvYUVxNx78KO8zibIFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/riley_martine
+
+==================================================================
