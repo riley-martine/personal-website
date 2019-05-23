@@ -6,9 +6,17 @@ $color-fade: #982c61;
 $color-bg: #f9f9f9;
 $color-bg-alt: #f1f1f1;
 
-$color-text: #4a4a4a;
-$font-size-base: 1.8rem;
+$color-text-fallback: #313131;
+$color-text: rgba(0, 0, 0, 0.8);
 
+$color-blossom-dark: #ffffff;
+$color-fade-dark: #c9c9c9;
+$color-bg-dark: #222222;
+$color-bg-alt-dark: #4a4a4a;
+$color-text-dark: #c9c9c9;
+/* CHANGE IN SAKURAMAIN */
+
+$font-size-base: 1.8rem;
 $font-family-sans-serif: Verdana, Geneva, sans-serif;
 $font-family-serif: serif;
 
@@ -79,8 +87,8 @@ code {
 }
 
 body {
-  color: #313131;
-  color: rgba(0, 0, 0, 0.8);
+  color: $color-text-fallback;
+  color: $color-text;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.7rem;
 }
@@ -107,3 +115,28 @@ h1, h2, h3, h4, h5, h6 {
 .h-card p {
   margin: 0;
 }
+
+@media (prefers-color-scheme: dark) {
+    nav ul {
+        li {
+            a {
+                &:hover {
+                    color: $color-bg-dark;
+                    &:not(.active) {
+                        background-color: $color-blossom-dark;
+                    }
+                }
+            }
+            .active {
+                background-color: $color-bg-alt-dark;
+            }
+        }
+    }
+    .site-header::after {
+        border-bottom: 0.125em solid $color-blossom-dark;
+    }
+    body {
+        color: $color-text-dark;
+    }
+}
+

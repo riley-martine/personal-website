@@ -3,7 +3,6 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
  */
-
 /* Body */
 
 html {
@@ -198,4 +197,59 @@ label, legend, fieldset {
     margin-bottom: .5rem;
     font-weight: 600; 
 }
+@media (prefers-color-scheme: dark) {
+    body {
+        color: $color-text-dark;
+        background-color: $color-bg-dark;
+    }
+    hr {
+        border-color: $color-blossom-dark;
+    }
+    a {
+        color: $color-blossom-dark;
+        &:hover {
+            color: $color-fade-dark;
+            border-bottom: 2px solid $color-text-dark;
+        }
+    }
+    blockquote {
+        border-left: 3px solid $color-blossom-dark;
+    }
+    pre, code {
+        background-color: $color-bg-alt-dark;
+    }
+    td, th { 
+        border-bottom: 1px solid $color-bg-alt-dark;
+    }
+    input, textarea {
+        border: 1px solid $color-text-dark;
+
+        &:focus {
+            border: 1px solid $color-blossom-dark;
+        }
+    }
+    .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+        background-color: $color-blossom-dark;
+        color: $color-bg-dark;
+        border: 1px solid $color-blossom-dark;
+        &:focus, &:hover {
+            background-color: $color-fade-dark;
+            border-color: $color-fade-dark;
+            color: $color-bg-dark;
+        }
+    }
+    textarea, select, input[type] {
+        color: $color-text-dark;
+        background-color: $color-bg-alt-dark;
+        border: 1px solid $color-bg-alt-dark;
+        &:focus {
+            border: 1px solid $color-blossom-dark;
+        }
+    }
+    input[type="checkbox"]:focus {
+        outline: 1px dotted $color-blossom-dark;
+    }
+
+}
+
 
